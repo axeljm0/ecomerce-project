@@ -1,0 +1,88 @@
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #444;
+  }
+  /* Container for form */
+  .login-container {
+    background: #f9f9f9;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 4rem 2.5rem;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  input[type="email"],
+  input[type="password"] {
+    padding: 0.7rem 1rem;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #444;
+  }
+  button[type="submit"] {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button[type="submit"]:hover {
+    background: #222;
+  }
+  .footer-text {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  /* Responsive for very small screens */
+  @media (max-width: 350px) {
+    .login-container {
+      padding: 1.5rem 1.5rem;
+      max-width: 95vw;
+    }
+  }

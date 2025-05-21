@@ -4,25 +4,21 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 <title>eCommerce</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="Frontend/css/style.css">
 
 <body>
 <header>
   <div class="header-inner">
     <div class="logo"></div>
-          <h1 style="margin-left:-430px; padding: 0%; cursor: pointer;">MiTienda :)</h1>
-
-        <input type="text" name="Buscar productos" id="search" placeholder="Buscar"
+          <h1 style="margin-left: -410px; padding: 0%; cursor: pointer;">MiTienda</h1>
+                  <input type="text" name="Buscar productos" id="search" placeholder="Buscar"
         style="
-         margin-right: -200px;
          width: 500px;
-         padding-bottom: 0px;
-         border: solid rgb(119, 114, 114);
-         border-radius: 100px;
-         background-color: rgb(237, 228, 228);
+         border: solid black 2px;
+         border-radius: 10px;
+         background-color: rgb(255, 255, 255);
          text-align: center;
-         line-height: 80px;
-         padding: 0%;
+         line-height: 50px;
          font-size: 30px;
         ">
     <nav>
@@ -33,56 +29,57 @@
         <li><a href="#">Contacto</a></li>
       </ul>
     </nav>
+    <img 
+    style="
+    padding: 0%;
+    width: 25px;
+    margin-right: -500px;
+    ">
   </div>
 </header>
-
-<Header class="header-main">
-<h1>Nuevos productos! </h1>
-</Header>
 
 <main class="container" role="main">
   <section class="hero" aria-label="Banner principal con oferta destacada">
     <h1>Bienvenido a MiTienda</h1>    
     <p>Lo mejor en tecnología y accesorios de moda a un solo clic.</p>
     <button type="button" onclick="alert('Gracias por visitar MiTienda!')">Compra Ahora</button>
-  </section>
 
+  </section>
   <section aria-label="Listado de productos" class="products">
     <article class="product-card">
-      <img src="https://via.placeholder.com/300?text=Producto+1" alt="Producto 1" class="product-image" />
+      <img src="Frontend/Assets/latitude.png" alt="Producto 1" class="product-image" />
       <div class="product-info">
-        <h2 class="product-name">Audífonos Inalámbricos</h2>
-        <p class="product-price">$45.99</p>
+        <h2 class="product-name">DELL latitude 5400</h2>
+        <p class="product-price">$199</p>
         <button class="add-to-cart" type="button" onclick="alert('Producto 1 agregado al carrito')">Agregar al carrito</button>
       </div>
     </article>
     <article class="product-card">
-      <img src="https://via.placeholder.com/300?text=Producto+2" alt="Producto 2" class="product-image" />
+      <img src="/Frontend/Assets/casio.jpg" alt="Producto 2" class="product-image" />
       <div class="product-info">
-        <h2 class="product-name">Smartwatch Deportivo</h2>
-        <p class="product-price">$89.99</p>
+        <h2 class="product-name">Reloj casio</h2>
+        <p class="product-price">$150.99</p>
         <button class="add-to-cart" type="button" onclick="alert('Producto 2 agregado al carrito')">Agregar al carrito</button>
       </div>
     </article>
     <article class="product-card">
-      <img src="https://via.placeholder.com/300?text=Producto+3" alt="Producto 3" class="product-image" />
+      <img src="Frontend/Assets/apple.jpg" alt="Producto 3" class="product-image" />
       <div class="product-info">
-        <h2 class="product-name">Cámara Fotográfica</h2>
-        <p class="product-price">$120.00</p>
+        <h2 class="product-name">Apple watch</h2>
+        <p class="product-price">399.99</p>
         <button class="add-to-cart" type="button" onclick="alert('Producto 3 agregado al carrito')">Agregar al carrito</button>
       </div>
     </article>
     <article class="product-card">
-      <img src="https://via.placeholder.com/300?text=Producto+4" alt="Producto 4" class="product-image" />
+      <img src="Frontend/Assets/sbox.png" alt="Producto 4" class="product-image" />
       <div class="product-info">
-        <h2 class="product-name">Bolso de Cuero</h2>
-        <p class="product-price">$60.00</p>
+        <h2 class="product-name">XBOX Seie S</h2>
+        <p class="product-price">399.90</p>
         <button class="add-to-cart" type="button" onclick="alert('Producto 4 agregado al carrito')">Agregar al carrito</button>
       </div>
     </article>
   </section>
 </main>
-
 
 <footer>
   &copy; 2024 MiTienda. Todos los derechos reservados.

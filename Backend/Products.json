@@ -1,0 +1,48 @@
+{
+  "store": {
+    "name": "TiendaEjemplo",
+    "currency": "USD",
+    "products": [
+      {
+        "id": 1,
+        "name": "Camiseta Deportiva",
+        "description": "Camiseta de poliéster para entrenamientos.",
+        "price": 19.99,
+        "stock": 45,
+        "category": "Ropa"
+      },
+      {
+        "id": 2,
+        "name": "Auriculares Bluetooth",
+        "description": "Auriculares inalámbricos con cancelación de                               ruido.",
+        "price": 49.99,
+        "stock": 30,
+        "category": "Electrónica"
+      },
+      {
+        "id": 3,
+        "name": "Zapatos de Running",
+        "description": "Zapatos cómodos y resistentes para correr.",
+        "price": 69.99,
+        "stock": 20,
+        "category": "Calzado"
+      },
+      {
+        "id": 4,
+        "name": "Gafas de Sol",
+        "description": "Gafas de sol con lentes polarizadas",
+        "price": 29.99,
+        "stock": 50,
+        "category": "Accesorios"
+      },
+      {
+        "id": 5,
+        "name": "Reloj Deportivo",
+        "description": "Reloj deportivo con cronómetro y altímetro.",
+        "price": 99.99,
+        "stock": 10,
+        "category": "Accesorios"
+      }
+    ]
+  }
+}
